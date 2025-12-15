@@ -12,41 +12,33 @@
       background: #fff;
     }
     .hero {
-      background-image: url('/bhz-moduli-workshop/assets/images/cover.png');
-      background-size: cover;
-      background-position: center;
-      height: 70vh;
-      min-height: 420px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      text-align: center;
-    }
+  background-image: url('/bhz-moduli-workshop/assets/images/cover.png');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
 
-    @media (max-width: 768px) {
-      .hero {
-        height: 55vh;
-        min-height: 360px;
-        padding: 1em;
-      }
-      .hero h1 {
-        font-size: 2em;
-      }
-      .hero p {
-        font-size: 1em;
-      }  
-    }
-    
-    .hero h1 {
-      font-size: 3em;
-      margin-bottom: 0.3em;
-      font-weight: normal;
-    }
-    .hero p {
-      font-size: 1.2em;
-    }
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.25); /* 非常学术的轻遮罩 */
+  padding: 2em 3em;
+}
+
+.hero h1 {
+  font-size: 3em;
+  font-weight: normal;
+  margin-bottom: 0.3em;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
     .content {
       max-width: 900px;
       margin: 3em auto;
@@ -62,6 +54,30 @@
     }
     a:hover {
       text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+
+      .hero {
+        height: 220px;          
+        min-height: unset;
+        background-size: cover;
+        background-position: center 40%; 
+      }
+
+      .hero-overlay {
+        background: rgba(0, 0, 0, 0.35);
+        padding: 1em;
+        width: 100%;
+      }
+
+      .hero h1 {
+        font-size: 1.6em;
+      }
+
+      .hero p {
+        font-size: 0.95em;
+      }
     }
 
     .navbar {
