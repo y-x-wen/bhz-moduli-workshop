@@ -18,11 +18,7 @@ The workshop will be held in two consecutive parts:
 
 ## Topics
 
-- Moduli spaces in algebraic geometry
-- Higgs bundles and Hitchin systems
-- Mirror symmetry and Langlands duality
-- Quantum K-theory and enumerative geometry
-- Derived and categorical aspects of moduli problems
+- To be added
 
 ---
 
