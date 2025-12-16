@@ -76,4 +76,4 @@ To be announced.
 
 ## Practical Information
 
-To be announced.
+- [Visa Issue](https://www.mfa.gov.cn/wjbzwfwpt/kzx/tzgg/202511/t20251110_11749824.html)
