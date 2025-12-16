@@ -76,4 +76,4 @@ To be announced.
 
 ## Practical Information
 
-- [Visa Issue](https://www.mfa.gov.cn/wjbzwfwpt/kzx/tzgg/202511/t20251110_11749824.html)
+- For the visa waiver program of China, please consult this page: https://www.mfa.gov.cn/wjbzwfwpt/kzx/tzgg/202511/t20251110_11749824.html
