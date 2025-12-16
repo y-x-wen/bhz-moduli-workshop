@@ -15,22 +15,22 @@ algebraic geometry and mathematical physics.
 The following speakers are invited to the workshop  
 (*TBC indicates to be confirmed*):
 
-- Aaron Pixton
-- Younghan Bae
-- Samir Canning
-- Gavril Farkas *(TBC)*
-- Alessandro Giacchetto *(TBC)*
-- François Greer
-- Shuai Guo
-- Aitor Iribar López
-- Zhiyuan Li
-- Zhiyu Liu
-- Samouil Molcho
-- Denis Nesterov
-- Georg Oberdieck *(TBC)*
-- Dragos Oprea *(TBC)*
-- Junliang Shen
-- Yang Zhou
+- Aaron Pixton (Ann Arbor)
+- Younghan Bae (Ann Arbor)
+- Samir Canning (Zurich)
+- Gavril Farkas (Berlin) *(TBC)*
+- Alessandro Giacchetto (Zurich) *(TBC)*
+- François Greer (East Lansing)
+- Shuai Guo (Beijing)
+- Aitor Iribar López (Zurich)
+- Zhiyuan Li (Shanghai)
+- Zhiyu Liu (Hangzhou)
+- Samouil Molcho (Rome)
+- Denis Nesterov (Zurich)
+- Georg Oberdieck (Heidelberg) *(TBC)*
+- Dragos Oprea (San Diego) *(TBC)*
+- Junliang Shen (New Haven)
+- Yang Zhou (Shanghai)
 
 
 ## Workshop Format and Locations
@@ -61,6 +61,11 @@ Participants may attend either part or both parts of the workshop.
 |------|----------|
 |      | To be announced |
 |      | To be announced |
+
+
+## Titles and Abstracts
+
+- To be added
 
 
 ## Organizers
