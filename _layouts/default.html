@@ -12,163 +12,72 @@
       background: #fff;
     }
 
-    .hero {
-      background-image: url('/bhz-moduli-workshop/assets/images/cover.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+    /* 封面容器 */
+    .cover-container {
+      width: 100%;
+      overflow: hidden;
+      background: #000;
     }
 
-    .hero-subtitle {
-      font-size: 1.2em;
+    /* 封面图片 */
+    .cover-image {
+      width: 100%;
+      height: auto;
+      display: block;
     }
 
-   .hero-home {
-      height: 100vh;
-      min-height: 600px;
+    /* 正文内容 */
+    .content {
+      max-width: 900px;
+      margin: 3em auto;
+      padding: 0 1.2em;
     }
 
-    .hero-inner {
-      height: 260px;
-      background-position: center 38%;
-    }
-
-    .hero-overlay {
-      background: rgba(0, 0, 0, 0.25);
-      padding: 2em 3em;
-    }
-
-    .hero h1 {
-      font-size: 3em;
-      font-weight: normal;
-      margin-bottom: 0.3em;
-    }
-
-    .hero p {
-      font-size: 1.2em;
-    }
-
-    .content:empty {
-      display: none;
-    }
-
-    .hero-overlay:empty {
-      display: none;
-    }
-    
     h2 {
       border-bottom: 1px solid #ccc;
-      padding-bottom: 0.2em;
-    }
-    a {
-      color: #003366;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
+      padding-bottom: 0.3em;
+      margin-top: 2.5em;
     }
 
     @media (max-width: 768px) {
 
-      .hero-home {
-        height: 220px;
-        min-height: unset;
-      }
-
-      .hero-home {
-        height: 100vh;
-        min-height: 600px;
-      }
-
-      .hero-inner {
-        height: 160px;
-      }
-
-      .hero h1 {
-        font-size: 1.4em;
-      }
-
-      .hero p {
-        font-size: 0.9em;
-      }
+    /* 允许横向缩放查看封面 */
+    .cover-container {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
     }
 
-    .navbar {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background: rgba(255, 255, 255, 0.92);
-      border-bottom: 1px solid #ddd;
-      z-index: 1000;
+    .cover-image {
+      width: auto;
+      height: 100vh;
+      max-height: 100vh;
     }
 
-    .navbar .nav-container {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 0.6em 1em;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .navbar a {
-      margin-left: 1em;
+    .content {
+      margin-top: 2em;
       font-size: 0.95em;
-      color: #003366;
-      text-decoration: none;
+      }
     }
-
-    .navbar a:first-child {
-      margin-left: 0;
-    }
-
-    .navbar a:hover {
-      text-decoration: underline;
-    }
-
-    .hero {
-      margin-top: 50px;
-    }  
+    
   </style>
 </head>
   
 <body>
 
-<!-- Navbar -->
-<div class="navbar">
-  <div class="nav-container">
-    <div class="nav-left">
-      <a href="index.html"><strong>Moduli Workshop</strong></a>
-    </div>
-    <div class="nav-right">
-      <a href="speakers.html">Speakers</a>
-      <a href="program.html">Program</a>
-      <a href="registration.html">Registration</a>
-      <a href="practical.html">Practical</a>
-    </div>
-  </div>
-</div>  
-  
-<!-- Hero -->
-<div class="hero {% if page.hero == 'inner' %}hero-inner{% else %}hero-home{% endif %}">
-  <div class="hero-overlay">
-    <!--<h1>Beijing–Hangzhou–Zurich<br>Moduli Workshop</h1> 
-    <p class="hero-subtitle">
-      May 13–15, 2026 · Peking University, Beijing<br>
-      May 18–19, 2026 · Zhejiang University, Hangzhou
-    </p>-->
-  </div>
+<!-- 封面图：唯一视觉入口 -->
+<div class="cover-container">
+  <img
+    src="/bhz-moduli-workshop/assets/images/cover.png"
+    alt="Beijing-Hangzhou-Zurich Moduli Workshop"
+    class="cover-image"
+  />
 </div>
 
-<!-- 正文（主页这里是空的） -->
+<!-- 正文内容：所有信息都在这里 -->
 <div class="content">
   {{ content }}
 </div>
 
 </body>
+  
 </html>
