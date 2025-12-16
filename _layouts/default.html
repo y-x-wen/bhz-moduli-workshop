@@ -59,19 +59,35 @@
       }
     }
 
+    /* IHES-style schedule table */
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 1em;
+      margin: 1.5em 0 2.5em 0;
+      font-size: 0.95em;
     }
 
-    th, td {
-      border-bottom: 1px solid #ddd;
-      padding: 0.6em 0.4em;
-    }
-
-    th {
+    thead th {
       text-align: left;
+      font-weight: normal;
+      border-bottom: 1px solid #999;
+      padding: 0.4em 0;
+    }
+
+    tbody td {
+      padding: 0.45em 0;
+      vertical-align: top;
+    }
+
+    tbody tr:not(:last-child) td {
+      border-bottom: 1px solid #ddd;
+    }
+
+    /* 第一列（时间）更窄、更“表格式” */
+    td:first-child,
+    th:first-child {
+      width: 6em;
+      white-space: nowrap;
     }
 
   </style>
