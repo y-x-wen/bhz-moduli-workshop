@@ -70,7 +70,10 @@ Participants may attend either part or both parts of the workshop.
 
 ## Organizers
 
-To be announced.
+- Rahul Pandharipande (Zurich)
+- Yongbin Ruan (Hangzhou)
+- Yaoxiong Wen (Hangzhou)
+-Qizheng Yin (Beijing)
 
 
 ## Practical Information
