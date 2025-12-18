@@ -14,7 +14,7 @@ algebraic geometry and mathematical physics.
 
 The workshop poster is available here:
 
-- [Workshop Poster (PDF)](assets/poster/BHZ-Moduli-Workshop-Poster.pdf)
+- Workshop Poster [(PDF)](assets/poster/BHZ-Moduli-Workshop-Poster.pdf)
 
 
 ## Speakers
