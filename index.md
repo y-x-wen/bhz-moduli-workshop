@@ -78,4 +78,4 @@ Participants may attend either part or both parts of the workshop.
 
 ## Practical Information
 
-- For the visa waiver program of China, please consult this page: [https://www.mfa.gov.cn/wjbzwfwpt/kzx/tzgg/202511/t20251110_11749824.html]
+- For the visa waiver program of China, please consult this page: [https://www.mfa.gov.cn/wjbzwfwpt/kzx/tzgg/202511/t20251110_11749824.html](https://www.mfa.gov.cn/wjbzwfwpt/kzx/tzgg/202511/t20251110_11749824.html)
